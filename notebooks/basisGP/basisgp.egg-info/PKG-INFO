@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: basisgp
+Version: 0.1
+Summary: Gaussian processes with explicit basis functions
+Home-page: https://github.com/samcoveney/basisgp
+Author: Sam Coveney
+Author-email: coveney.sam@gmail.com
+License: GPL-3.0+
+Description: UNKNOWN
+Platform: UNKNOWN
