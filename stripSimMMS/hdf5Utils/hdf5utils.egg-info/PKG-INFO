@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hdf5utils
+Version: 1.0
+Summary: Utilities for handling hdf5 files in Python.
+Home-page: UNKNOWN
+Author: Sam Coveney
+Author-email: coveney.sam@gmail.com
+License: GPL-3.0+
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

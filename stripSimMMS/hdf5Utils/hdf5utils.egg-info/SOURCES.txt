@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+hdf5utils/__init__.py
+hdf5utils/browse_hdf5.py
+hdf5utils/h5pyUtils.py
+hdf5utils.egg-info/PKG-INFO
+hdf5utils.egg-info/SOURCES.txt
+hdf5utils.egg-info/dependency_links.txt
+hdf5utils.egg-info/not-zip-safe
+hdf5utils.egg-info/requires.txt
+hdf5utils.egg-info/top_level.txt

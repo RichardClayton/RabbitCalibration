@@ -1,0 +1,53 @@
+# simulation settings
+
+
+## solver settings
+
+dt = 100 
+ode_fac = 5 
+
+mass_lumping = 0
+bidomain = 0
+bidm_eqv_mono = 1
+parab_solve = 1
+cg_precond = 2 
+cg_tol_parab = 1.0e-7
+
+
+## cell model settings
+
+num_imp_regions = 1
+imp_region[0].name = "MYO"
+imp_region[0].cellSurfVolRatio = 1.0
+imp_region[0].im = mMS
+
+
+## conductivity settings
+
+num_gregions = 1
+gregion[0].name = "MYO_0"
+gregion[0].num_IDs = 1
+gregion[0].ID[0] = 1
+
+
+## LAT recording settings
+num_LATs = 2
+lats[0].measurand  = 0
+lats[0].all = 1
+lats[0].method = 1
+lats[0].mode = 0
+lats[0].threshold = 0.7
+lats[0].ID = tact_0.7
+lats[1].measurand = 0
+lats[1].all = 1
+lats[1].method = 1
+lats[1].mode = 1
+lats[1].threshold = 0.1
+lats[1].ID = trep_0.1
+
+
+## other settings
+
+timedt = 50
+
+
